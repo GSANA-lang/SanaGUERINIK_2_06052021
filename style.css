@@ -16,7 +16,29 @@
   margin-top: 20px;
 }
 
+.menu a
+{
+  text-decoration: none;
+  color: black;
+}
 
+#menu1:hover, #menu2:hover
+{
+  border-top: 3px solid #1e62e0;
+  color: #1e62e0;
+
+}
+
+#menu3 a
+{
+  color:#1e62e0;
+}
+
+.menu
+{
+  text-align: center;
+  padding-top: 25px;
+}
 header
 {
   display: grid;
@@ -72,6 +94,10 @@ h1
   display: flex;
 }
 
+#filtres div:hover
+{
+  background-color: #1e62e033;
+}
 #liste-filtres1
 {
   width: 182px;
